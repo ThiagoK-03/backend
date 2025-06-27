@@ -1,5 +1,5 @@
-import { Repository } from "../shared/repository.js";
-import { Deidad } from "./deidad.entity.js";
+import { Repository } from "../shared/repository";
+import { Deidad } from "./deidad.entity";
 
 const deidades = [
     new Deidad(

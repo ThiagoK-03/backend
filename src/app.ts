@@ -3,7 +3,7 @@ import cors from 'cors';
 import morgan from 'morgan';
 import router from './routes/index';
 import { notFound } from './middlewares/notFound.middleware';
-import { DeidadRepository } from './deidad/deidad.repository.js';
+import { DeidadRepository } from './deidad/deidad.repository';
 import { Deidad } from './deidad/deidad.entity';
 
 const app = express();
