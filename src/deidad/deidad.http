@@ -1,0 +1,19 @@
+### obtener todas las deidades
+
+GET http://localhost:3000/api/deidades
+
+
+### obtener una deidad
+GET http://localhost:3000/api/deidades/a01-a02-a03-a04-a05
+
+### crear nueva deidad
+
+POST http://localhost:3000/api/deidades
+Content-Type: application/json
+{
+    "nombre": "Odin",
+    "descripcion": "Padre de todo, creo",
+    "elemento": "Rayo, creo"
+
+}
+
